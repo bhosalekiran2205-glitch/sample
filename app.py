@@ -1,14 +1,23 @@
-from flask import Flask
+# Variables
+name = "Kiran"
+age = 17
 
-app = Flask(__name__)
+# Print
+print("Name:", name)
+print("Age:", age)
 
-@app.route('/')
-def home():
-    return "Hello World!"
+# If-Else
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
 
-@app.route('/about')
-def about():
-    return "About Page"
+# Loop
+for i in range(1, 6):
+    print("Number:", i)
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# Function
+def greet(user):
+    return f"Hello, {user}!"
+
+print(greet(name))
