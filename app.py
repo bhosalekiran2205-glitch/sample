@@ -1,8 +1,8 @@
 from flask import Flask
 import requests
 
-application = Flask(__name__)
-app = application
+app = Flask(__name__)
+app = app
 
 def get_instance_id():
     try:
