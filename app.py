@@ -25,4 +25,4 @@ def home():
     return f"<h1>Hello Batch 25 this is the demontsration of python deployment with flask service </h1><p>Instance: {get_instance_id()}</p>"
 
 if __name__ == "__main__":
-    application.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=8080)
